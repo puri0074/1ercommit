@@ -5,25 +5,41 @@ package buscando.el.numero.mayor.o.menor.que.pkg10.en.java;
 
 public class BuscandoElNumeroMayorOMenorQue10EnJava {
 
+
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+    
+    
+        // llamar a la funcion scanner
 
-        scanner dato = new Scanner(System.in); //llamar al numero que estamos buscando
-        System.out.println("ingrese el numero; "); //pedimos al personaje que pida un numero 
-        int num1 = dato.nestInt(); //leer el numero
+        scanner dato = new Scanner(System.in); 
+        System.out.println("puri:");  
+        String nombre = name.nextline();
+        System.out.println("hola "+nombre);
+        System.out.println("ingrese un numero: ");
 
-        if (num1<10) {//si el numero es menor que 10 imprime a continuación};
-
-    }
-    else if (num1 < 10){ //sin el num 1 es menor que 10 imprime lo siguiente }
-}
-    else{//de lo contrario imprimir lo siguente}
-    System.out.println("hola puri");
-    System.out.println("el numero que ingresaste es menor que 10");
+        float num = name.nextFloat();
+        //algoritmo if
+        if (num <10){
+            System.out.println("Hola "+puri+" "+"tu numero es menor que 10");
+        }
+        else if (num == 10){
+            System.out.println("Hola "+puri+" "+"tu numero es igual que 10");
+        }
+        else{
+            System.out.println("Hola "+puri+" "+"tu numero es menor que 10");
         }
     }
 }
+
+
+
+        
+
+    
+    
+
 
